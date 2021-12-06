@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fab fa-github"></i> GitHub Users</h1>
+    </header>
+    <section id="firstSection">
+        <div class="contGeneralData">
+            <div class="contSearchUser">
+                <input id="search" placeholder="GitHub user..." type="text">
+            </div>
+            <div class="contDataUser">
+                <div class="user-image">
+                    <img src="https://avatars.githubusercontent.com/u/526826?v=4" alt="">
+                </div>
+                <div class="user-data">
+                    <div class="data-name">
+                        <span class="user-name">Daniel Hernández Vieira</span>
+                        <span class="user-login">DaniHV3</span>
+                    </div>
+                    <div class="contBio">
+                        <p>Aviso: No uso este github para el publico. Todos mis repos son privados, de proyectos de clientes, trabajos para empresas confidenciales o pruebas para cursos.</p>
+                        <div class="user-num">
+                            <span class="user-followers"><i class='fas fa-user-friends'></i> Seguidores: 3</span>
+                            <span><i class="fab fa-stack-overflow"></i> Repositorios: 12</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <template>
+        <div class="contDataUser">
+            <div class="user-image">
+                <img src="https://avatars.githubusercontent.com/u/526826?v=4" alt="">
+            </div>
+            <div class="user-data">
+                <div class="data-name">
+                    <span class="user-name">Daniel Hernández Vieira 2</span>
+                    <span class="user-login">DaniHV3</span>
+                </div>
+                <div class="contBio">
+                    <p>Aviso: No uso este github para el publico. Todos mis repos son privados, de proyectos de clientes, trabajos para empresas confidenciales o pruebas para cursos.</p>
+                    <div class="user-num">
+                        <span class="user-followers"><i class='fas fa-user-friends'></i> Seguidores: <span>3</span></span>
+                        <span><i class="fab fa-stack-overflow"></i> Repositorios: <span>12</span></span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </template>
+    <script src="./assets/scripts/main.js"></script>
+    
+</body>
+</html>

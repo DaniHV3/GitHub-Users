@@ -1,0 +1,189 @@
+//$firstColor: rgb(0, 58, 107);
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+// rgb(75,135,244) #e501d5
+$backgroundColor: #252531;
+$contDataColor: #4b87f4;
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+header {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #bc13fe, 0 0 25px #bc13fe,
+    0 0 35px rgb(188, 22, 254), 0 0 45px #bc13fe;
+  font-size: 20px;
+}
+//First Section
+#firstSection {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  .contGeneralData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 85%;
+    .contSearchUser {
+      margin-bottom: 60px;
+      width: 80%;
+      input {
+        background-color: black;
+        outline: none;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: none;
+        height: 40px;
+        border-radius: 8px;
+        box-shadow: rgba(188, 22, 254, 0.4) 0px 2px 4px,
+          rgba(188, 22, 254, 0.3) 0px 7px 13px -3px,
+          rgba(188, 22, 254, 0.2) 0px -3px 0px inset;
+        width: 100%;
+      }
+    }
+    .contDataUser {
+      color: white;
+      overflow: hidden;
+      width: 100%;
+      min-width: 250px;
+      height: auto;
+      background-color: black;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      box-shadow: 0 0 40px 10px #fff, /* inner white */ 0 0 80px 40px #f0f,
+        /* middle magenta */ 0 0 120px 70px #0ff; /* outer cyan */
+      box-shadow: inset 0 0 50px #fff, /* inner white */ inset 20px 0 80px #f0f,
+        /* inner left magenta short */ inset -20px 0 80px #0ff,
+        /* inner right cyan short */ inset 20px 0 300px #f0f,
+        /* inner left magenta broad */ inset -20px 0 300px #0ff,
+        /* inner right cyan broad */ 0 0 50px #fff;
+      box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #f0f, 0 0 25px #f0f,
+        0 0 35px #f0f, 0 0 45px #f0f;
+      border: 0.2rem solid #fff;
+      border-radius: 2rem;
+      padding: 0.4em;
+      box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+        0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+      -webkit-animation: blink 0.7s infinite alternate;
+      animation: blink 0.7s infinite alternate;
+      position: relative;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .user-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+      }
+      .user-image img {
+        border-radius: 100px;
+        //box-shadow: -1px 1px 15px 4px rgba(240, 46, 170, 0.7);
+        border: 2px solid white;
+        padding: 2px;
+        width: 65px;
+        height: 65px;
+      }
+      .user-data {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-center;
+        width: 80%;
+        padding: 18px;
+        .contBio {
+          width: 100%;
+          p {
+            text-align: center;
+          }
+        }
+
+        .data-name {
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+        }
+        .user-num {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          span {
+            font-size: 12px;
+          }
+        }
+
+        .user-login {
+          color: gray;
+          font-size: 14px;
+        }
+      }
+      .user-data span {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .user-data p {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  /*Tablet*/
+}
+
+@media (min-width: 1100px) {
+  header {
+    font-size: 30px;
+  }
+  .contGeneralData {
+    width: 80% !important;
+  }
+  .user-data {
+    align-items: flex-start;
+    min-width: 65% !important;
+    div p {
+      text-align: left !important;
+    }
+    .data-name {
+      text-align: left !important;
+    }
+  }
+  .contSearchUser {
+    width: 20% !important;
+  }
+  /* Pantalla ordenador */
+  .contDataUser {
+    width: 35% !important;
+    flex-direction: row !important;
+    min-height: 30% !important;
+  }
+  .user-image {
+    height: 100%;
+    width: 80% !important;
+  }
+  .user-image img {
+    border-radius: 100px;
+    //box-shadow: -1px 1px 15px 4px rgba(240, 46, 170, 0.7);
+    border: 2px solid white;
+    padding: 2px;
+    width: 75px !important;
+    height: 75px !important;
+  }
+}

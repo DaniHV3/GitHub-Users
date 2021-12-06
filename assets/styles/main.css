@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #bc13fe, 0 0 25px #bc13fe, 0 0 35px #bc16fe, 0 0 45px #bc13fe;
+  font-size: 20px;
+}
+
+#firstSection {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+#firstSection .contGeneralData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  height: 85%;
+}
+
+#firstSection .contGeneralData .contSearchUser {
+  margin-bottom: 60px;
+  width: 80%;
+}
+
+#firstSection .contGeneralData .contSearchUser input {
+  background-color: black;
+  outline: none;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  height: 40px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(188, 22, 254, 0.4) 0px 2px 4px, rgba(188, 22, 254, 0.3) 0px 7px 13px -3px, rgba(188, 22, 254, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(188, 22, 254, 0.4) 0px 2px 4px, rgba(188, 22, 254, 0.3) 0px 7px 13px -3px, rgba(188, 22, 254, 0.2) 0px -3px 0px inset;
+  width: 100%;
+}
+
+#firstSection .contGeneralData .contDataUser {
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  min-width: 250px;
+  height: auto;
+  background-color: black;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  -webkit-box-shadow: 0 0 40px 10px #fff, 0 0 80px 40px #f0f, 0 0 120px 70px #0ff;
+          box-shadow: 0 0 40px 10px #fff, 0 0 80px 40px #f0f, 0 0 120px 70px #0ff;
+  /* outer cyan */
+  -webkit-box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff;
+          box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff;
+  -webkit-box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #f0f, 0 0 25px #f0f, 0 0 35px #f0f, 0 0 45px #f0f;
+          box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 15px #f0f, 0 0 25px #f0f, 0 0 35px #f0f, 0 0 45px #f0f;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  -webkit-box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+          box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+  position: relative;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#firstSection .contGeneralData .contDataUser .user-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#firstSection .contGeneralData .contDataUser .user-image img {
+  border-radius: 100px;
+  border: 2px solid white;
+  padding: 2px;
+  width: 65px;
+  height: 65px;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: flex-center;
+      -ms-flex-align: flex-center;
+          align-items: flex-center;
+  width: 80%;
+  padding: 18px;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data .contBio {
+  width: 100%;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data .contBio p {
+  text-align: center;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data .data-name {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data .user-num {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data .user-num span {
+  font-size: 12px;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data .user-login {
+  color: gray;
+  font-size: 14px;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#firstSection .contGeneralData .contDataUser .user-data p {
+  font-size: 13px;
+}
+
+@media (min-width: 700px) {
+  /*Tablet*/
+}
+
+@media (min-width: 1100px) {
+  header {
+    font-size: 30px;
+  }
+  .contGeneralData {
+    width: 80% !important;
+  }
+  .user-data {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    min-width: 65% !important;
+  }
+  .user-data div p {
+    text-align: left !important;
+  }
+  .user-data .data-name {
+    text-align: left !important;
+  }
+  .contSearchUser {
+    width: 20% !important;
+  }
+  /* Pantalla ordenador */
+  .contDataUser {
+    width: 35% !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    min-height: 30% !important;
+  }
+  .user-image {
+    height: 100%;
+    width: 80% !important;
+  }
+  .user-image img {
+    border-radius: 100px;
+    border: 2px solid white;
+    padding: 2px;
+    width: 75px !important;
+    height: 75px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
